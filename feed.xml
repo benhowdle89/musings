@@ -1,0 +1,20 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+  <atom:link href="http://musings.im/feed.xml" rel="self" type="application/rss+xml" />
+  <title>Musings - snippets of advice &amp; inspiration from people in the web industry</title>
+  <link>http://musings.im</link>
+  <language>en-us</language>
+  <copyright>&#xA9; 2013 Ben Howdle</copyright>
+  {% for post in site.posts %}
+    <item>
+      <title>{{ post.title | replace:'&','&amp;' }}</title> 
+      <description>{{ post.content | replace:'<!---extended-->','' | xml_escape }}</description>
+      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+    </item>
+  {% endfor %}
+</channel>
+</rss>

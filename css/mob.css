@@ -1,0 +1,67 @@
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	font-weight: 600 !important;
+}
+
+#focus {
+	display: none;
+}
+
+#intro {
+	opacity: 1;
+}
+
+#sidebar {
+	float: none;
+	width: 100%;
+	position: relative;
+	border: none;
+	height: auto;
+}
+
+#main {
+	margin-left: 0;
+	margin-top: 20px;
+}
+
+#menu {
+	border-left: none;
+	position: relative;
+	margin: 0;
+	height: auto;
+	padding-bottom: 40px;
+}
+
+#content {
+	padding: 20px;
+	margin-top: 10px;
+}
+
+#me {
+	height: auto;
+	padding-bottom: 40px;
+}
+
+#twitter-icon {
+	display: none;
+}
+
+#menu ul li {
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+}
+
+#footer {
+  line-height: 40px;
+  padding: 40px 20px;
+  margin-top: 20px;
+}
+
+.twitter-follow-button {
+  float: none;
+}

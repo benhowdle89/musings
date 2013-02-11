@@ -1,0 +1,17 @@
+---
+layout: default
+title: Archive
+---
+
+<div id="blogposts">
+	<ul class="entries">
+	  {% for post in site.posts %}
+	  <li>
+	    <a href="{{ post.url }}">
+	      <h3>{{ post.title }}</h3>
+	      <span>{{ post.date | date: "%d %B %Y" }}</span>
+	    </a>
+	  </li>
+	  {% endfor %}
+	</ul>
+</div>

@@ -1,0 +1,520 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "proxima-nova", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #666666;
+  font-size: 13pt;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #dff4ff; /* Safari */
+}
+::-moz-selection {
+  background: #dff4ff; /* Firefox */
+}
+
+ul li {
+  list-style-type: none;
+}
+
+h2 {
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+h3 {
+
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 25px 0;
+}
+
+h3:hover {
+  color: #7d7d7d;
+}
+
+p {
+  line-height: 1.6em;
+  color: #2b2b2b;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  color: #444;
+}
+
+a {
+  color: #408ab4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6db5dd;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+pre {
+  margin: 20px 0;
+  padding: 20px !important;
+  background: #373540 !important;
+  color: #fff !important;
+  border-radius: 3px !important;
+  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+  overflow-x: auto;
+}
+
+blockquote {
+  font-style: italic;
+  margin-left: 10px;
+}
+
+#sidebar {
+  width: 245px;
+  border-right: 1px solid #dadada;
+  float: left;
+  height: 100%;
+  position: fixed;
+  padding: 20px;
+}
+
+#sidebar:hover {
+
+}
+
+#sidebar p {
+  font-size: 16px;
+  font-family: "proxima-nova", Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+#me {
+  height: 240px;
+  border-bottom: 1px solid #dadada;
+  border-top: 1px solid #fff;
+}
+
+#me img {
+  position: relative;
+  margin: auto;
+  display: block;
+  width: 121px;
+  height: 121px;
+  top: 10px;
+}
+
+#me p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#me h1 {
+  margin-top: 30px;
+  font-weight: 700;
+  text-align: center;
+  font-size: 24px;
+}
+
+#me h1:hover {
+  color: #7d7d7d;
+}
+
+#me h1 a {
+  color: inherit;
+}
+
+#menu {
+  height: 50px;
+  border-bottom: 1px solid #dadada;
+  border-left: 1px solid #dadada;
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  z-index: 10;
+  margin-top: -1px;
+  margin-left: -1px;
+}
+
+#menu:hover {
+
+}
+
+#menu ul li {
+  padding-left: 40px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  display: inline-block;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+#menu ul li a {
+  display: block;
+}
+
+#menu ul li a:hover {
+
+}
+
+#focus {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 10;
+  cursor: pointer;
+  font-weight: 700;
+  color: #444;
+}
+
+#focus:hover {
+  color: #7d7d7d;
+}
+
+#focus.focus-on {
+  color: #408AB4;
+}
+
+#focus.focus-on:hover {
+  color: #6db5dd;
+}
+
+.focus {
+  opacity: 0;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+#sidebar, #menu {
+    transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+#main {
+  margin-left: 245px;
+  border-top: 1px solid #fff;
+}
+
+#content {
+  padding: 40px;
+  margin-top: 40px;
+  min-height: 450px;
+  max-width: 950px;
+}
+
+#projects {
+
+}
+
+.project {
+  display: inline-block;
+  margin: 0 20px 40px 0;
+}
+
+.project a {
+  position: relative;
+  display: block;
+}
+
+.project a p {
+
+  font-size: 13pt;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.project img {
+
+}
+
+.post h3 {
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+.post p {
+  margin: 25px 0;
+}
+
+.post li {
+  margin: 10px 0;
+}
+
+.post img {
+  margin: 20px 0;
+}
+
+.pagination {
+  background: #373540;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  margin: 20px 0 40px 0;
+}
+
+.pagination a {
+  font-weight: 400;
+  color: #fff;
+  padding: 10px 20px;
+  display: block;
+}
+
+.pagination.older {
+  float: left;
+}
+
+.pagination.newer {
+  float: right;
+}
+
+.entries li {
+  margin: 0 20px 40px 0;
+}
+
+.entries li a span, .post h3 span {
+  font-weight: 400;
+  font-size: 10pt;
+  display: block;
+}
+
+.post h3 span {
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+#intro {
+  margin-top: 20px;
+  text-align: center;
+  /*opacity: 0.5;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;*/
+}
+
+/*#sidebar:hover #intro {
+  opacity: 1;
+}*/
+
+#footer {
+  padding: 40px;
+  margin-top: 40px;
+}
+
+.twitter-follow-button {
+  float: right;
+}
+
+#twitter-icon {
+  position: absolute;
+  bottom: 20px;
+  left: 120px;
+}
+
+.tweet-link {
+  margin: 30px 0; 
+  background: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #dadada;
+}
+
+#fusion_ad {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.fusionentire a {
+  display: block;
+  font-size: 14px;
+}
+
+#fusion_link {
+  
+}
+
+.fusiontext {
+  margin: 10px 0;
+}
+
+
+
+/* font-face */
+@font-face {
+  font-family: "SocialFoundicons";
+  src: url("../fonts/social_foundicons.eot");
+  src: url("../fonts/social_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/social_foundicons.woff") format("woff"), url("../fonts/social_foundicons.ttf") format("truetype"), url("../fonts/social_foundicons.svg#SocialFoundicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global foundicon styles */
+[class*="foundicon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+[class*="foundicon-"]:before {
+  font-family: "SocialFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+.foundicon-thumb-up:before {
+  content: "\f000";
+}
+
+.foundicon-thumb-down:before {
+  content: "\f001";
+}
+
+.foundicon-rss:before {
+  content: "\f002";
+}
+
+.foundicon-facebook:before {
+  content: "\f003";
+}
+
+.foundicon-twitter:before {
+  content: "\f004";
+}
+
+.foundicon-pinterest:before {
+  content: "\f005";
+}
+
+.foundicon-github:before {
+  content: "\f006";
+}
+
+.foundicon-path:before {
+  content: "\f007";
+}
+
+.foundicon-linkedin:before {
+  content: "\f008";
+}
+
+.foundicon-dribbble:before {
+  content: "\f009";
+}
+
+.foundicon-stumble-upon:before {
+  content: "\f00a";
+}
+
+.foundicon-behance:before {
+  content: "\f00b";
+}
+
+.foundicon-reddit:before {
+  content: "\f00c";
+}
+
+.foundicon-google-plus:before {
+  content: "\f00d";
+}
+
+.foundicon-youtube:before {
+  content: "\f00e";
+}
+
+.foundicon-vimeo:before {
+  content: "\f00f";
+}
+
+.foundicon-flickr:before {
+  content: "\f010";
+}
+
+.foundicon-slideshare:before {
+  content: "\f011";
+}
+
+.foundicon-picassa:before {
+  content: "\f012";
+}
+
+.foundicon-skype:before {
+  content: "\f013";
+}
+
+.foundicon-steam:before {
+  content: "\f014";
+}
+
+.foundicon-instagram:before {
+  content: "\f015";
+}
+
+.foundicon-foursquare:before {
+  content: "\f016";
+}
+
+.foundicon-delicious:before {
+  content: "\f017";
+}
+
+.foundicon-chat:before {
+  content: "\f018";
+}
+
+.foundicon-torso:before {
+  content: "\f019";
+}
+
+.foundicon-tumblr:before {
+  content: "\f01a";
+}
+
+.foundicon-video-chat:before {
+  content: "\f01b";
+}
+
+.foundicon-digg:before {
+  content: "\f01c";
+}
+
+.foundicon-wordpress:before {
+  content: "\f01d";
+}
