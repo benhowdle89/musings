@@ -8,8 +8,14 @@
   <copyright>&#xA9; 2013 Ben Howdle</copyright>
   
     <item>
-      <title>Design for you users</title> 
-      <description>&lt;p&gt;Don&amp;#8217;t design do impress your peers, but remember your users.&lt;/p&gt;</description>
+      <title>RTFM</title> 
+      <description>&lt;p&gt;Read the manual. Nothing beats knowing the foundations of what you&amp;#8217;re trying to learn.&lt;/p&gt;</description>
+      <pubDate>Tue, 29 Jan 2013 00:00:00 +0000</pubDate>
+    </item>
+  
+    <item>
+      <title>Design for your users</title> 
+      <description>&lt;p&gt;Don&amp;#8217;t design to impress your peers, but for your users.&lt;/p&gt;</description>
       <pubDate>Tue, 29 Jan 2013 00:00:00 +0000</pubDate>
     </item>
   

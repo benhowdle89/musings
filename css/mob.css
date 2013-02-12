@@ -1,67 +1,29 @@
+.wrap {
+	width: 90%;
+	margin: auto;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
 }
 
-a {
-	font-weight: 600 !important;
-}
-
-#focus {
-	display: none;
-}
-
-#intro {
-	opacity: 1;
-}
-
-#sidebar {
-	float: none;
-	width: 100%;
+footer {
 	position: relative;
-	border: none;
-	height: auto;
+	margin-top: 60px;
 }
 
-#main {
-	margin-left: 0;
-	margin-top: 20px;
+h1 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-#menu {
-	border-left: none;
-	position: relative;
-	margin: 0;
-	height: auto;
-	padding-bottom: 40px;
+h1 span {
+  font-size: 16px;
+  text-align: right;
 }
 
-#content {
-	padding: 20px;
-	margin-top: 10px;
-}
-
-#me {
-	height: auto;
-	padding-bottom: 40px;
-}
-
-#twitter-icon {
-	display: none;
-}
-
-#menu ul li {
-	text-align: center;
-	line-height: 40px;
-	height: 40px;
-}
-
-#footer {
-  line-height: 40px;
-  padding: 40px 20px;
-  margin-top: 20px;
-}
-
-.twitter-follow-button {
+footer ul li {
   float: none;
 }

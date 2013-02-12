@@ -1,0 +1,8 @@
+---
+date: 2013-01-29 00:00:00
+title: RTFM
+layout: post
+slug: rtfm
+twitterusername: benhowdle 
+---
+Read the manual. Nothing beats knowing the foundations of what you're trying to learn.
