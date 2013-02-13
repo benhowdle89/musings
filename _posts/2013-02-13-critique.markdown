@@ -1,0 +1,8 @@
+---
+date: 2013-02-13 00:00:00
+title: Critique
+layout: post
+slug: critique
+twitterusername: michaelw90 
+---
+Critique is not personal. Ask for it, accept it, think on it and only if appropriate, implement it. Disregarding it is perfectly acceptable.
