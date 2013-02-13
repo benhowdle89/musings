@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="post">
+<div id="single-post" class="post">
     <h2><a href="{{page.url}}">{{page.title}}</a></h2>
     <span>{{ page.date | date: "%d %B %Y" }}</span>
     <hr />
@@ -12,4 +12,6 @@ layout: default
 
     <span class="left meta"><a href="https://twitter.com/intent/tweet?text={{page.title}}&amp;url=http://musings.im{{page.url}}{% if page.twitterusername %}&amp;via={{page.twitterusername}}{% endif %}" target="_BLANK">Tweet</a></span>
 </div>
+<div class="clearfix"></div>
 
+<a id="seeMore" href="/archive/">see more</a>
