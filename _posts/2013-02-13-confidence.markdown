@@ -1,5 +1,5 @@
 ---
-date: 2013-02-13 00:00:00
+date: 2013-02-13 07:42:00
 title: Confidence
 layout: post
 slug: confidence
