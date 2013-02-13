@@ -14,6 +14,7 @@ layout: none
       <title>{{ post.title | replace:'&','&amp;' }}</title> 
       <description>{{ post.content | replace:'<!---extended-->','' | xml_escape }}</description>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+      <author>{{ post.twitterusername }}</author>
     </item>
   {% endfor %}
 </channel>
