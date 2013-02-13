@@ -16,4 +16,4 @@ A community driven site with advice and inspiration from web people.
 
 ## How do I GitHub!?
 
-Email me -> hello@benhowdle.im with your twitter name, the title of the post and post content. I'll submit it on your behalf.
+If you don't want to approach the above method, no fear, just email me -> hello@benhowdle.im with your twitter name, the title of the post and post content. I'll submit it on your behalf.
