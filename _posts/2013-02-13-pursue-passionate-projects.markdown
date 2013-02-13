@@ -5,4 +5,4 @@ layout: post
 slug: pursue-passionate-projects
 twitterusername: de 
 ---
-Create something you’re passionate about chances are you’ll try harder.
+Create something you’re passionate about, chances are you’ll try harder.
