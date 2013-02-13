@@ -5,7 +5,7 @@ description: Ben Howdle - JavaScript Developer
 
 {% assign first_post = site.posts.first %}
 <div id="latest-post" class="post">
-	<h3><a href="{{first_post.url}}">{{first_post.title}}</a></h3>
+	<h2><a href="{{first_post.url}}">{{first_post.title}}</a></h2>
 	<span>{{ first_post.date | date: "%d %B %Y" }}</span>
 	<hr />
 	<p>{{first_post.content}}</p>
