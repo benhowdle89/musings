@@ -1,0 +1,8 @@
+---
+date: 2013-02-18 07:42:00
+title: Learning
+layout: post
+slug: learning
+twitterusername: benhowdle 
+---
+Struggling to learn something? Take some time away from it; your subconscious is far more powerful than your conscious mind. 
