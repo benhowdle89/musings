@@ -1,0 +1,9 @@
+---
+date: 2013-02-20 15:30:02
+title: Craft
+layout: post
+slug: craft
+twitterusername: taylorlapeyre
+---
+
+Treat your code like any other composition, such as a poem, an essay, a public blog, or an important email. Craft what you express carefully, so that it does what it should and communicates as directly as possible what it is doing, so that it still communicates your intention when you are no longer around.
