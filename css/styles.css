@@ -50,6 +50,10 @@ header {
 
 }
 
+#content {
+  padding-bottom: 30px;
+}
+
 footer {
   padding: 0 10px;
   position: fixed;
