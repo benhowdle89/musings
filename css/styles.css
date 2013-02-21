@@ -52,7 +52,7 @@ header {
 
 footer {
   padding: 0 10px;
-  position: absolute;
+  position: fixed;
   bottom: 10px;
   width: 100%;
 }
