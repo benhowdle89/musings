@@ -6,4 +6,4 @@ slug: relax-dude
 twitterusername: ryanAmurphy 
 ---
 
-Relax Dude, don't get hung up in the finer details of things. don't stress yourself over inability to do certain aspects. just relax and take the challenges as they come.
+Relax Dude, don't get hung up in the finer details of things. Don't stress yourself over inability to do certain aspects. Just relax and take the challenges as they come.
