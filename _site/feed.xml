@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+  <atom:link href="http://musings.im/feed.xml" rel="self" type="application/rss+xml" />
+  <title>Musings - snippets of advice &amp; inspiration from people in the web industry</title>
+  <link>http://musings.im</link>
+  <language>en-us</language>
+  <copyright>&#xA9; 2013 Ben Howdle</copyright>
+  
+    <item>
+      <title>On Originality</title> 
+      <description>&lt;p&gt;There are no original ideas. Only better ones.&lt;/p&gt;</description>
+      <pubDate>Sun, 03 Mar 2013 11:47:00 +0000</pubDate>
+      <author>_dte</author>
+    </item>
+  
+    <item>
+      <title>Inspiration</title> 
+      <description>&lt;p&gt;Leave Dribbble for a while and get inspired by the things you&amp;#8217;ve created yourself.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Feb 2013 11:47:00 +0000</pubDate>
+      <author>radlikewhoa_</author>
+    </item>
+  
+    <item>
+      <title>Relax Dude</title> 
+      <description>&lt;p&gt;Relax Dude, don&amp;#8217;t get hung up in the finer details of things. Don&amp;#8217;t stress yourself over inability to do certain aspects. Just relax and take the challenges as they come.&lt;/p&gt;</description>
+      <pubDate>Fri, 22 Feb 2013 07:42:00 +0000</pubDate>
+      <author>ryanAmurphy</author>
+    </item>
+  
+    <item>
+      <title>Pursue Passionate Projects</title> 
+      <description>&lt;p&gt;Create something you’re passionate about, chances are you’ll try harder.&lt;/p&gt;</description>
+      <pubDate>Thu, 21 Feb 2013 00:00:00 +0000</pubDate>
+      <author>de</author>
+    </item>
+  
+    <item>
+      <title>Craft</title> 
+      <description>&lt;p&gt;Treat your code like any other composition, such as a poem, an essay, a public blog, or an important email. Craft what you express carefully, so that it does what it should and communicates as directly as possible what it is doing, so that it still communicates your intention when you are no longer around.&lt;/p&gt;</description>
+      <pubDate>Wed, 20 Feb 2013 15:30:02 +0000</pubDate>
+      <author>taylorlapeyre</author>
+    </item>
+  
+    <item>
+      <title>Fresh Eyes</title> 
+      <description>&lt;p&gt;Take a step back from your work, remove yourself and re-evaluate your work without preconception. It is important to try and see your work for the first time, more than just that first time.&lt;/p&gt;</description>
+      <pubDate>Tue, 19 Feb 2013 07:42:00 +0000</pubDate>
+      <author>dandgough</author>
+    </item>
+  
+    <item>
+      <title>Learning</title> 
+      <description>&lt;p&gt;Struggling to learn something? Take some time away from it; your subconscious is far more powerful than your conscious mind.&lt;/p&gt;</description>
+      <pubDate>Mon, 18 Feb 2013 07:42:00 +0000</pubDate>
+      <author>benhowdle</author>
+    </item>
+  
+    <item>
+      <title>Development Confidence</title> 
+      <description>&lt;p&gt;Keep building, work on side projects to widen your ability and increase your self-confidence. Now when clients ask you if something can be done, you can be sure.&lt;/p&gt;</description>
+      <pubDate>Sun, 17 Feb 2013 12:00:00 +0000</pubDate>
+      <author>andrewhathaway</author>
+    </item>
+  
+    <item>
+      <title>Humility FTW</title> 
+      <description>&lt;p&gt;Confidence is easy to fake, humility less so.&lt;/p&gt;</description>
+      <pubDate>Sat, 16 Feb 2013 00:00:00 +0000</pubDate>
+      <author>adamwhitcroft</author>
+    </item>
+  
+    <item>
+      <title>Critique</title> 
+      <description>&lt;p&gt;Critique is not personal. Ask for it, accept it, think on it and only if appropriate, implement it. Disregarding it is perfectly acceptable.&lt;/p&gt;</description>
+      <pubDate>Fri, 15 Feb 2013 00:00:00 +0000</pubDate>
+      <author>michaelw90</author>
+    </item>
+  
+    <item>
+      <title>Confidence</title> 
+      <description>&lt;p&gt;Be confident with your designs, stay committed to them. If you don&amp;#8217;t, who will?&lt;/p&gt;</description>
+      <pubDate>Thu, 14 Feb 2013 07:42:00 +0000</pubDate>
+      <author>iamlouisbullock</author>
+    </item>
+  
+    <item>
+      <title>Challenges</title> 
+      <description>&lt;p&gt;Challenge yourself continuously. Take on work that you&amp;#8217;re not that comfortable doing, this helps apply learning in a real situation, with real consequences.&lt;/p&gt;</description>
+      <pubDate>Wed, 13 Feb 2013 07:42:00 +0000</pubDate>
+      <author>benhowdle</author>
+    </item>
+  
+</channel>
+</rss>

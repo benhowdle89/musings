@@ -1,0 +1,29 @@
+.wrap {
+	width: 90%;
+	margin: auto;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+footer {
+	position: relative;
+	margin-top: 60px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1 span {
+  font-size: 16px;
+  text-align: right;
+}
+
+footer ul li {
+  float: none;
+}

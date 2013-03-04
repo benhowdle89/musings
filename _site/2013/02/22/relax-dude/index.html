@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  {% if page.description %}
-  <meta name="description" content="{{page.description}}" />  
-  {% elsif page.content %}
-  <meta name="description" content="{{ page.content | strip_html | truncatewords: 25 }}" />
-  {% else %}
-  <meta name="description" content="{{site.description}}" />
-  {% endif %}
+  
+  <meta name="description" content="Relax Dude, don't get hung up in the finer details of things. Don't stress yourself over inability to do certain aspects. Just relax and take..." />
+  
   <meta charset=utf-8 />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <title> {% if page.title %} {{ page.title }} | {% endif %} Musings - advice &amp; inspiration from people in the web industry</title>
+  <title>  Relax Dude |  Musings - advice &amp; inspiration from people in the web industry</title>
   <script type="text/javascript" src="//use.typekit.net/cas7kzf.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <link rel="stylesheet" href="/css/styles.css" />
@@ -25,7 +21,20 @@
   </header>
   <div id="content">
     <div class="wrap">
-      {{ content }}
+      <div id="single-post" class="post">
+    <h2><a href="/2013/02/22/relax-dude/">Relax Dude</a></h2>
+    <span>22 February 2013</span>
+    <hr />
+    <p>Relax Dude, don't get hung up in the finer details of things. Don't stress yourself over inability to do certain aspects. Just relax and take the challenges as they come.</p>
+    <hr />
+    <span class="meta right">via <a href="http://twitter.com/ryanAmurphy">ryanAmurphy</a></span>
+
+    <span class="left meta"><a href="https://twitter.com/intent/tweet?text=Relax Dude&amp;url=http://musings.im/2013/02/22/relax-dude/&amp;via=ryanAmurphy" target="_BLANK">tweet</a></span>
+</div>
+<div class="clearfix"></div>
+
+<a id="seeMore" href="/archive/">see more</a>
+
     </div>
   </div>
   <footer>
@@ -53,9 +62,31 @@
 
 </script>
 <script>var links = [];
-    {% for post in site.posts %}
-    links.push('{{post.url}}');
-    {% endfor %}
+    
+    links.push('/2013/03/03/on-originality/');
+    
+    links.push('/2013/02/23/inspiration/');
+    
+    links.push('/2013/02/22/relax-dude/');
+    
+    links.push('/2013/02/21/pursue-passionate-projects/');
+    
+    links.push('/2013/02/20/craft/');
+    
+    links.push('/2013/02/19/fresh-eyes/');
+    
+    links.push('/2013/02/18/learning/');
+    
+    links.push('/2013/02/17/development-confidence/');
+    
+    links.push('/2013/02/16/humility-ftw/');
+    
+    links.push('/2013/02/15/critique/');
+    
+    links.push('/2013/02/14/confidence/');
+    
+    links.push('/2013/02/13/challenges/');
+    
 </script>
 <script type="text/javascript" src="/script.js"></script>
     

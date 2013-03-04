@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  {% if page.description %}
-  <meta name="description" content="{{page.description}}" />  
-  {% elsif page.content %}
-  <meta name="description" content="{{ page.content | strip_html | truncatewords: 25 }}" />
-  {% else %}
-  <meta name="description" content="{{site.description}}" />
-  {% endif %}
+  
+  <meta name="description" content="404" />  
+  
   <meta charset=utf-8 />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <title> {% if page.title %} {{ page.title }} | {% endif %} Musings - advice &amp; inspiration from people in the web industry</title>
+  <title>  Musings - advice &amp; inspiration from people in the web industry</title>
   <script type="text/javascript" src="//use.typekit.net/cas7kzf.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <link rel="stylesheet" href="/css/styles.css" />
@@ -25,7 +21,9 @@
   </header>
   <div id="content">
     <div class="wrap">
-      {{ content }}
+      <h3>Couldn't find that page...</h3>
+
+<p>Sorry, yo.</p>
     </div>
   </div>
   <footer>
@@ -53,9 +51,31 @@
 
 </script>
 <script>var links = [];
-    {% for post in site.posts %}
-    links.push('{{post.url}}');
-    {% endfor %}
+    
+    links.push('/2013/03/03/on-originality/');
+    
+    links.push('/2013/02/23/inspiration/');
+    
+    links.push('/2013/02/22/relax-dude/');
+    
+    links.push('/2013/02/21/pursue-passionate-projects/');
+    
+    links.push('/2013/02/20/craft/');
+    
+    links.push('/2013/02/19/fresh-eyes/');
+    
+    links.push('/2013/02/18/learning/');
+    
+    links.push('/2013/02/17/development-confidence/');
+    
+    links.push('/2013/02/16/humility-ftw/');
+    
+    links.push('/2013/02/15/critique/');
+    
+    links.push('/2013/02/14/confidence/');
+    
+    links.push('/2013/02/13/challenges/');
+    
 </script>
 <script type="text/javascript" src="/script.js"></script>
     
