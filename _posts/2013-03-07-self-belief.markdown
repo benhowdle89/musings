@@ -6,4 +6,4 @@ slug: self-belief
 twitterusername: benhubbard434 
 ---
 
-Always believe in your own ability. Use criticism to improve not get disheartened.
+Always believe in your own ability. Use criticism to improve, not to get disheartened.
