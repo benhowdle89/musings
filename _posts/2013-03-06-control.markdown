@@ -6,4 +6,4 @@ slug: control
 twitterusername: oliverjash 
 ---
 
-Control your information sources, aggressively. They have a colossal impact on your social and working life.
+Control your information sources, aggressively. They have a colossal impact on your social and working lives.
