@@ -52,10 +52,7 @@
   })();
 
 </script>
-<script>var links = [];
-    {% for post in site.posts %}
-    links.push('{{post.url}}');
-    {% endfor %}
+<script>var links = [{% for post in site.posts %}'{{post.url}}',{% endfor %}];
 </script>
 <script type="text/javascript" src="/script.js"></script>
     
