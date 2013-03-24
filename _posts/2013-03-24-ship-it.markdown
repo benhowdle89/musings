@@ -1,0 +1,9 @@
+---
+date: 2013-03-24 11:47:00
+title: Ship It
+layout: post
+slug: ship-it
+twitterusername: sachaschmid 
+---
+
+Think, build, ship. Don't sweat the details. Once you've shipped, other people can even help you figure out the details.
